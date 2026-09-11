@@ -9,7 +9,7 @@ body{
 }
 
 section{
-    background-color: brown;
+    background-color: #a52a2a;
     border: 2px solid rgb(19, 6, 6);
     border-radius: 20px;
     text-align: center;
@@ -28,7 +28,7 @@ span{
     margin-bottom: 25px;
 }
 
-.campo p {
+.campo label {
     margin: 0 0 5px 0;
     text-align: left;
     color: rgb(200, 210, 210);
@@ -70,4 +70,31 @@ span{
 
 .logear:hover{
     background-color: rgb(24, 4, 4);
+}
+
+.recuperar-password {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.recuperar-password a{
+    color: rgb(200, 210, 210);
+    font-size: 0.85rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.recuperar-password a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.escudo-contenedor{
+    display: flex;
+    justify-content: center;
+}
+
+.escudo{
+    width: 100px;
+    height: auto;
 }
