@@ -72,6 +72,10 @@ span{
     background-color: rgb(24, 4, 4);
 }
 
+.logear:active{
+    transform: scale(0.95);
+}
+
 .recuperar-password {
     margin-top: 15px;
     text-align: center;
@@ -89,12 +93,31 @@ span{
     text-decoration: underline;
 }
 
-.escudo-contenedor{
-    display: flex;
-    justify-content: center;
-}
-
 .escudo{
     width: 100px;
     height: auto;
+}
+
+.volver{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: brown;
+    color: white;
+    padding: 20px 20px;
+    border: 1px solid rgb(19, 6, 6);
+    border-radius: 12px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.volver:hover{
+    background-color: rgb(77, 9, 9);
+    transform: translateY(-2px);
+}
+
+.volver:active{
+    transform: scale(0.92)
 }
